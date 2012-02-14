@@ -7,6 +7,8 @@ Packaging
 python-tornado
 --------------
 
+You can find the source [here](https://github.com/DataDog/tornado).
+
 On a CentOS box, get python(2.6) and run:
     
     python26 setup.py bdist_rpm --python python26
