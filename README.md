@@ -23,9 +23,10 @@ python-tornado
 
 You can find the source [here](https://github.com/DataDog/tornado).
 
-On a CentOS box, get python(2.6) and run:
+On a CentOS box with python 2.6, run:
     
-    python26 setup.py bdist_rpm --python python26 --obsoletes python26-tornado --release N
+    python setup.py bdist_rpm --obsoletes python26-tornado --packager="Datadog <package@datadoghq.com>" \
+    --requires='python(abi) = 2.6'
     
 where N is the build number.
 
