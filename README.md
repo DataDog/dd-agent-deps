@@ -1,3 +1,8 @@
+# DEPRECATED
+This repository is deprecated and is not in use anymore.
+For any question, please reach out to our support team: https://app.datadoghq.com/help
+
+
 This repository contains a collection of modules needed by [Datadog](http://www.datadoghq.com)'s
 [Agent](https://github.com/DataDog/dd-agent)
 
